@@ -1,0 +1,153 @@
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/readme-icon.png" />
+
+# GEyesThemes
+
+Custom themes for the Gnome panel applet GEyes. Note that the source to 
+*GEyes* is available on [github](https://github.com/GNOME/gnome-applets), 
+and also on the official Gnome git site 
+[here](https://gitlab.gnome.org/GNOME/gnome-applets). 
+Documentation for the *GEyes* panel applet can be found 
+[here](https://help.gnome.org/users/geyes/3.5/).
+A hacking manual detailing how to modify and/or create new themes for 
+*GEyes* is available [here](https://gitlab.gnome.org/GNOME/gnome-applets/blob/master/geyes/README.themes).
+
+## Installation
+
+Typically, the themes can be installed by copying the individual theme 
+directories into the appropriate themes directory under **/usr/share**.
+First, clone our repository by running:
+```
+$ cd ~
+$ git clone https://github.com/maxieds/GEyesThemes.git
+$ cd GEyesThemes
+```
+On Linux Mint (*MATE* desktop), and likely on modern Ubuntu derivatives, 
+this can be accomplished by executing:
+```
+$ sudo cp -r ./ThemeStyle /usr/share/mate-applets/geyes/
+```
+More generally, on any sane Unix with the ``gnome-applet`` package installed, 
+running the following should install any given theme:
+```
+$ export GEYESTHEMES=`find /usr/share -iname Default-eye.png | sed -e 's/Default\/Default-eye.png//'`
+$ sudo cp -r ./ThemeStyle $GEYESTHEMES
+```
+Then if you right click on the installed *GEyes* applet in your Gnome panel, 
+and select *Preferences*, you should immediately be able to select eye 
+styles from among the newly installed themes.
+
+## The custom themes
+
+### #1 : Green-EyedGirl theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Green-EyedGirl/Green-EyedGirl.png" />
+
+### #2 : Pink-EyedGirl theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Pink-EyedGirl/Pink-EyedGirl.png" />
+
+### #3 : Brown-EyedGirl theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Brown-EyedGirl/Brown-EyedGirl.png" />
+
+### #4 : EyelashLarge theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/EyelashLarge/EyelashLarge.png" />
+
+### #5 : PumpkinMonster theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/PumpkinMonster/PumpkinMonster.png" />
+
+### #6 : Cupid theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Cupid/Cupid.png" />
+
+### #7 : TieDye theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/TieDye/TieDye.png" />
+
+### #8 : Brandi theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Brandi/Brandi.png" />
+
+### #9 : CheshireCat theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/CheshireCat/CheshireCat.png" />
+
+### #10 : Shamrock theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Shamrock/Shamrock.png" />
+
+### #11 : EulerGamma theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/EulerGamma/EulerGamma.png" />
+
+### #12 : PiDay theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/PiDay/PiDay.png" />
+
+### #13 : Apery theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Apery/Apery.png" />
+
+### #14 : ConcreteMath theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/ConcreteMath/ConcreteMath.png" />
+
+### #15 : CameoCat theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/CameoCat/CameoCat.png" />
+
+### #16 : RainbowPi theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/RainbowPi/RainbowPi.png" />
+
+### #17 : Rumba theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Rumba/Rumba.png" />
+
+### #18 : BeetleJuice theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/BeetleJuice/BeetleJuice.png" />
+
+### #19 : Binomial theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Binomial/Binomial.png" />
+
+### #20 : OctoAlien theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/OctoAlien/OctoAlien.png" />
+
+### #21 : Eye4 theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Eye4/Eye4.png" />
+
+### #22 : Eye5 theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Eye5/Eye5.png" />
+
+### #23 : Eye6 theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Eye6/Eye6.png" />
+
+### #24 : Jas0n theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/Jas0n/Jas0n.png" />
+
+### #25 : CircuitBorg theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/CircuitBorg/CircuitBorg.png" />
+
+### #26 : MonsterEye2 theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/MonsterEye2/MonsterEye2.png" />
+
+### #27 : CompMadness theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/CompMadness/CompMadness.png" />
+
+### #28 : TuxPenguin theme
+
+<img src="https://github.com/maxieds/GEyesThemes/blob/master/TuxPenguin/TuxPenguin.png" />
+
+
